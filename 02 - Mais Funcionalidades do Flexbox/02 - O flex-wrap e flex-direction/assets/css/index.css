@@ -1,0 +1,55 @@
+/*========== Configurations ==========*/
+@font-face {
+    font-family: 'Icones';
+    src: url(../font/icones.ttf);
+}
+
+/*========== Generic Elements ==========*/
+body {
+    background-color: #1D232A;
+
+    color: white;
+    font-family: "Open Sans", "Icones", sans-serif;
+}
+
+/*========== Generic Classes ==========*/
+
+
+/*========== Page - Top to Bottom ==========*/
+/* CABEÇALHO */
+.cabecalho {
+    background-color: #15191C;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+    .cabecalho__menu i::before {
+        content: "\e904";
+        
+        font-size: 24px;
+    }
+
+    .cabecalho__logo {
+        width: 40px;
+    }
+
+    .cabecalho__notificacao i::before {
+        content: "\e906";
+
+        font-size: 24px;
+    }
+
+/* MENU LATERAL */
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+    .menu-lateral__logo {
+        align-self: center;
+    }
