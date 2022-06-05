@@ -1,0 +1,19 @@
+/*========== Configurations ==========*/
+
+
+/*========== Generic Elements ==========*/
+body {
+    background-color: #1D232A;
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*========== Generic Classes ==========*/
+
+
+/*========== Page - Top to Bottom ==========*/
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+}
