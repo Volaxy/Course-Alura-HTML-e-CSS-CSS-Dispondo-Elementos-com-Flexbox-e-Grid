@@ -57,3 +57,30 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 
 ### 04 - Transição do Menu Lateral
 * Criar o recurso de menu lateral clicavel.
+
+***
+
+## 03 - O que o Flex não Consegue Fazer &#x1F516;
+* As limitações de trabalhar com flexbox.
+    * A principal delas é trabalhar com dois eixos ao mesmo tempo, eixo vertical e horizontal.
+* O funcionamento básico do grid.
+    * A ideia de grid container é bem parecida com flex container, mas no grid container o fluxo é vertical e também ganhamos acesso a outras propriedades.
+* Propriedades para criar linhas e colunas: grid-template-rows e grid-template-columns.
+    * Os valores que essas propriedades recebem são os tamanhos das colunas/linhas. Ex: para 3 colunas de 30px a propriedade se escreve: grid-template-columns: 30px 30px 30px.
+* Nova unidade de medida fr.
+    * É a unidade de medida para trabalhar com proporções de uma maneira mais simples do que porcentagem. Principalmente quando a porcentagem é uma dízima periódica.
+* Mescla de linhas e colunas com as propriedades grid-columns: span n e grid-rows: span n.
+    * É o conceito de “mescla de células”. Serve para dizer quantas colunas/linhas um elemento ocupa dentro do grid container.
+
+### 01 - Litimações do Flexbox
+* Começar a fazer a parte dos cartões.
+
+### 02 - A Solução do Grid
+* Utilizar a propriedade **grid**.
+* Definir o número de colunas com o `grid-template-columns`.
+
+### 03 - Estilização Básica do Cartão
+* Ajeitar os componentes do cartão.
+
+### 04 - Montando o Cartão com Grid
+* Utilizar a propriedade `grid-column`.

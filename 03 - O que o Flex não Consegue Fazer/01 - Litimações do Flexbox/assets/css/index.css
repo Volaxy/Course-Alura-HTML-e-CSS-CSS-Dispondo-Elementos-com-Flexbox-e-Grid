@@ -1,0 +1,124 @@
+/*========== Configurations ==========*/
+@font-face {
+    font-family: 'Icones';
+    src: url(../font/icones.ttf);
+}
+
+/*========== Generic Elements ==========*/
+body {
+    background-color: #1D232A;
+
+    color: white;
+    font-family: "Open Sans", "Icones", sans-serif;
+}
+
+/*========== Generic Classes ==========*/
+
+
+/*========== Page - Top to Bottom ==========*/
+/* CABEÇALHO */
+.cabecalho {
+    background-color: #15191C;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+    .cabecalho__menu i::before {
+        content: "\e904";
+        
+        font-size: 24px;
+    }
+
+    .cabecalho__logo {
+        width: 40px;
+    }
+
+    .cabecalho__notificacao i::before {
+        content: "\e906";
+
+        font-size: 24px;
+    }
+
+/* MENU LATERAL */
+.menu-lateral {
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: -100vw;
+
+    transition: .25s;
+}
+
+    .menu-lateral--ativo {
+        left: 0;
+    }
+
+    .menu-lateral__logo {
+        width: 120px;
+
+        align-self: center;
+
+        padding: 16px;
+    }
+
+    .menu-lateral__link {
+        height: 64px;
+
+        display: flex;
+        align-items: center;
+
+        padding-left: 64px;
+
+        color: #95999C;
+    }
+
+        .menu-lateral__link--ativo {
+            color: white;
+
+            padding-left: 56px;
+            border-left: 8px solid white;
+        }
+
+        .menu-lateral__link::before {
+            position: absolute;
+            left: 24px;
+
+            width: 24px;
+            height: 24px;
+
+            font-size: 24px;
+        }
+
+            .menu-lateral__link--inicio::before {
+                content: "\e902";
+            }
+            
+            .menu-lateral__link--videos::before {
+                content: "\e90e";
+            }
+
+            .menu-lateral__link--picos::before {
+                content: "\e909";
+            }
+
+            .menu-lateral__link--integrantes::before {
+                content: "\e903";
+            }
+
+            .menu-lateral__link--camisas::before {
+                content: "\e900";
+            }
+
+            .menu-lateral__link--pinturas::before {
+                content: "\e90a";
+            }
