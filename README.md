@@ -65,11 +65,11 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
     * A principal delas é trabalhar com dois eixos ao mesmo tempo, eixo vertical e horizontal.
 * O funcionamento básico do grid.
     * A ideia de grid container é bem parecida com flex container, mas no grid container o fluxo é vertical e também ganhamos acesso a outras propriedades.
-* Propriedades para criar linhas e colunas: grid-template-rows e grid-template-columns.
+* Propriedades para criar linhas e colunas: `grid-template-rows` e `grid-template-columns`.
     * Os valores que essas propriedades recebem são os tamanhos das colunas/linhas. Ex: para 3 colunas de 30px a propriedade se escreve: grid-template-columns: 30px 30px 30px.
-* Nova unidade de medida fr.
+* Nova unidade de medida `fr`.
     * É a unidade de medida para trabalhar com proporções de uma maneira mais simples do que porcentagem. Principalmente quando a porcentagem é uma dízima periódica.
-* Mescla de linhas e colunas com as propriedades grid-columns: span n e grid-rows: span n.
+* Mescla de linhas e colunas com as propriedades `grid-columns: span n` e `grid-rows: span n`.
     * É o conceito de “mescla de células”. Serve para dizer quantas colunas/linhas um elemento ocupa dentro do grid container.
 
 ### 01 - Litimações do Flexbox
@@ -88,11 +88,11 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 ***
 
 ## 04 - Transformando o Layout com Grid &#x1F516;
-* As propriedades column-gap, row-gap e gap.
+* As propriedades `column-gap`, `row-gap` e `gap`.
     * São as propriedades que dão espaçamento entre os grid items.
-* Como utilizar o valor auto para tamanho de colunas.
+* Como utilizar o valor `auto` para tamanho de colunas.
     * Nem sempre queremos colocar um valor fixo para as colunas/linhas. O valor auto permite que elas se adaptem de acordo com o conteúdo.
-* Planejar o uso de grid no desenvolvimento.
+* Planejar o uso de `grid` no desenvolvimento.
     * Uma técnica muito interessante é usar alguma ferramenta de desenho e esboçar possíveis linhas e colunas em cima do layout recebido.
 
 ### 01 - Avançando com o Grid
@@ -100,3 +100,28 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 
 ### 02 - Terminando o Layout da Página
 * Criar a estrutura dos cartões simples.
+
+***
+
+## 05 - Responsividade com Grid &#x1F516;
+* Como evoluir o layout para desktop com grid.
+    * Como fica o planejamento e criação das colunas e linhas da página quando existe um espaço horizontal maior em um dispositivo desktop.
+* A função `repeat()`.
+    * Quando precisamos criar muitas colunas com o mesmo tamanho, evitando repetição de código.
+* Alterar a posição de elementos com as propriedades `grid-row` e `grid-column`.
+    * Antes usadas apenas para mesclar linhas e colunas, vimos que essas propriedades também controlam onde um elemento começa e termina dentro do grid container.
+
+### 01 - Adaptando a Estrutura para Desktop
+* Criar a aba dee vídeos mais recentes.
+
+### 02 - Estilizando o Cabeçalho com Grid
+* Usar a função `repeat()` do CSS.
+
+### 03 - Criando as Colunas da Classe Principal
+* Configurar o menu lateral.
+
+### 04 - Estilizando o Cartão de Recentes
+* Organizando o cartão.
+
+### 05 - Organizando os Elementos com Grid-row e Grid-column
+* Ajeitar a separação das linhas e colunas do site.
