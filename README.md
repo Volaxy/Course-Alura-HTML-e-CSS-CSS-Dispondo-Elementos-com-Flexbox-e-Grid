@@ -84,3 +84,19 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 
 ### 04 - Montando o Cartão com Grid
 * Utilizar a propriedade `grid-column`.
+
+***
+
+## 04 - Transformando o Layout com Grid &#x1F516;
+* As propriedades column-gap, row-gap e gap.
+    * São as propriedades que dão espaçamento entre os grid items.
+* Como utilizar o valor auto para tamanho de colunas.
+    * Nem sempre queremos colocar um valor fixo para as colunas/linhas. O valor auto permite que elas se adaptem de acordo com o conteúdo.
+* Planejar o uso de grid no desenvolvimento.
+    * Uma técnica muito interessante é usar alguma ferramenta de desenho e esboçar possíveis linhas e colunas em cima do layout recebido.
+
+### 01 - Avançando com o Grid
+* Usar o `grid gap`.
+
+### 02 - Terminando o Layout da Página
+* Criar a estrutura dos cartões simples.
