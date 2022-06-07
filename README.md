@@ -125,3 +125,15 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 
 ### 05 - Organizando os Elementos com Grid-row e Grid-column
 * Ajeitar a separação das linhas e colunas do site.
+
+***
+
+## 06 - Grid Container e suas Áreas &#x1F516;
+* As vantagens e utilização de grid areas.
+    * Grid areas vem com o propósito de facilitar a manutenção de código e a visibilidade dos elementos dentro do grid container.
+
+### 01 - Grid Areas
+* Definindo grid-areas para ajustar o layout da página.
+
+### 02 - Ajustando Detalhes do Layout
+* Pequenos ajustes no layout.
