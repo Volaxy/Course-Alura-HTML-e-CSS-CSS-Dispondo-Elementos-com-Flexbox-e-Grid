@@ -14,6 +14,7 @@ URL do curso -> [CSS: dispondo elementos com Flexbox e Grid](https://cursos.alur
 * [Projeto no Figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid) - Layout base para a criação do projeto.
 * [Propriedades Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Para conferir todas as propriedades e valores do Flexbox, você pode conferir o post do CSS-TRICKS. Esse post é bem completo.
 * [Flexbox Froggy](https://flexboxfroggy.com/) - Jogo didático para exercitar os conceitos do **flex** do **CSS**.
+* [Flex Cheatsheet](https://yoksel.github.io/flex-cheatsheet/#section-align-content) - Site de guia do Flex-box.
 
 ## 01 - Flexbox &#x1F516;
 * O que é um flex-container;
